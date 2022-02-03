@@ -142,3 +142,55 @@ nav a {
     height: 50px;
     margin-top: 30px;
 }
+
+/* abbonamenti */
+
+.container-abbonamenti {
+    margin: 0 auto;
+    width: 70%;
+    height: 1500px;
+}
+
+.container-abbonamenti h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 250px;
+}
+
+.radio-button {
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.radio-button label {
+    margin-right: 20px;
+}
+
+.piani-abbonamenti {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.col-left {
+    width: 30%;
+    height: 800px;
+    border: 1px solid grey;
+}
+
+.top-col {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.top-col img {
+   width: 20px;
+   height: 20px;
+}
+
+.top-col span {
+    font-weight: 600;
+}
