@@ -148,7 +148,6 @@ nav a {
 .container-abbonamenti {
     margin: 0 auto;
     width: 70%;
-    height: 1500px;
 }
 
 .container-abbonamenti h1 {
@@ -302,6 +301,7 @@ hr {
     height: 300px;
     border: 1px solid gray;
     margin-top: 50px;
+    margin-bottom: 150px;
 }
 
 .enterprise .container-colonna {
@@ -346,4 +346,59 @@ hr {
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+/* partner */
+
+.partner-img {
+    width: 50%;
+}
+
+.partner-img img {
+   width: 100%;
+}
+
+.partner-txt {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.partner-txt h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.partner-txt p {
+    line-height: 30px;
+}
+
+.partner-txt {
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.button-partner {
+    margin-top: 40px;
+}
+
+.button-partner a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    border: 1px solid black;
+}
+
+/* Dropbox Business */
+
+.container-business {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.container-business h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
 }
