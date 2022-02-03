@@ -172,9 +172,9 @@ nav a {
     margin-top: 40px;
 }
 
-.col-left {
+.col-style {
     width: 30%;
-    height: 1000px;
+    height: 1100px;
     border: 1px solid grey;
 }
 
@@ -266,4 +266,26 @@ hr {
     width: 15%;
     opacity: 0.5;
     margin-bottom: 50px;
+}
+
+.container-colonna li {
+    font-size: 14px;
+    font-weight: 600;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.container-colonna ul {
+    margin-top: 30px;
+}
+
+.container-colonna ul span {
+    color: #0061ff;
+    font-weight: 600;
+}
+
+/* seconda colonna */
+
+.col-mid {
+    margin: 0 5%;
 }
