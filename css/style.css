@@ -174,7 +174,7 @@ nav a {
 
 .col-left {
     width: 30%;
-    height: 800px;
+    height: 1000px;
     border: 1px solid grey;
 }
 
@@ -193,4 +193,77 @@ nav a {
 
 .top-col span {
     font-weight: 600;
+}
+
+.container-colonna {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.container-colonna h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.container-colonna p {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.details img {
+    width: 15px;
+    height: 15px;
+}
+
+.details {
+    margin-bottom: 30px;
+}
+
+.details span {
+    font-weight: 600;
+    text-align: left;
+}
+
+.icone {
+    width: 5%;
+}
+
+.icone-dettaglio {
+    width: 95%;
+}
+
+.button-col {
+    background-color: #0061ff;
+    color: white;
+    padding: 10px 90px;
+}
+
+.container-colonna a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.prova-gratis {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.link-acquisto {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.link-acquisto a {
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+hr {
+    width: 15%;
+    opacity: 0.5;
+    margin-bottom: 50px;
 }
