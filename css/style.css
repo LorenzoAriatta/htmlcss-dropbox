@@ -46,7 +46,6 @@
 /* header */
 
 header {
-    height: 100px;
     width: 100%;
     background-color: white;
     position: fixed;
@@ -69,18 +68,29 @@ nav {
     list-style-type: none;
     display: inline;
     margin-right: 30px;
+    padding-bottom: 38px;
+}
+
+.nav-right li:hover {
+    border-bottom: 2px solid black;
 }
 
 .nav-right li {
     list-style-type: none;
     display: inline;
     margin-right: 30px;
+    padding-bottom: 38px;
 }
 
 .button-nav {
     background-color: #0061ff;
     color: white;
     padding: 5px 20px;
+}
+
+.button-nav:hover {
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 nav a {
@@ -133,6 +143,11 @@ nav a {
     background-color: #0061ff;
     color: white;
     padding: 7px 20px;
+}
+
+.button-jumbo:hover {
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 .jumbo a {
@@ -251,6 +266,11 @@ nav a {
     padding: 10px 90px;
 }
 
+.button-col:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
 .container-colonna a {
     text-decoration: none;
     font-size: 14px;
@@ -271,6 +291,11 @@ nav a {
 .link-acquisto a {
     color: #0061ff;
     text-decoration: underline;
+}
+
+.link-acquisto a:hover {
+    text-decoration: none;
+    color: #a2d39b;
 }
 
 hr {
@@ -311,7 +336,7 @@ hr {
     margin-bottom: 150px;
 }
 
-.enterprise .container-colonna {
+.container-colonna {
     position: relative;
 }
 
@@ -349,7 +374,7 @@ hr {
     font-weight: 600;
 }
 
-.button-entreprise, .button-col {
+.button-entreprise, .button-try {
     position: absolute;
     top: 0px;
     right: 0px;
@@ -388,6 +413,11 @@ hr {
 
 .button-partner {
     margin-top: 40px;
+}
+
+.btn-partner:hover {
+    background-color: #f5f5f5;
+    text-decoration: underline;
 }
 
 .button-partner a {
@@ -470,6 +500,12 @@ hr {
 .container-team a {
     text-decoration: underline;
     color: #0061ff;
+    font-weight: 600;
+}
+
+.link-more:hover {
+    text-decoration: none;
+    color: #a2d39b;
 }
 
 .container-team p {
@@ -486,12 +522,16 @@ hr {
     height: 500px;
 }
 
+
 .desi-logo {
     width: 50%;
     height: 50%;
     background-color: #a2d39b;
-    border: 10px solid #d0e9cd;
     position: relative;
+}
+
+.desi-logo:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
 .desi-logo img {
@@ -519,6 +559,10 @@ hr {
     transform: translate(-50%, -50%);
 }
 
+.asu-logo:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
 .florida-logo {
     width: 50%;
     height: 50%;
@@ -533,6 +577,10 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.florida-logo:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
 .topps-logo {
@@ -550,6 +598,10 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.topps-logo:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
 /* team mid */
 
 .teams-mid {
@@ -558,9 +610,13 @@ hr {
     background-color: #f5f5f5;
 }
 
+.teams-mid:hover { 
+    border: 10px solid rgba(0, 0, 0, 0.5);
+}
+
 .logo-mid {
     width: 100%;
-    margin: 50px 0 0 50px;
+    margin: 50px 0 50px 50px;
 }
 
 .logo-mid img {
@@ -605,6 +661,10 @@ hr {
     transform: translate(-50%, -50%);
 }
 
+.wbr-logo:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
 .hearst-logo {
     width: 50%;
     height: 50%;
@@ -619,6 +679,10 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.hearst-logo:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
 .loney-logo {
@@ -637,6 +701,10 @@ hr {
     transform: translate(-50%, -50%);
 }
 
+.loney-logo:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
 .clearchannel-logo {
     width: 50%;
     height: 50%;
@@ -651,6 +719,10 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.clearchannel-logo:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
 /* ultima sezione business */
@@ -674,6 +746,11 @@ hr {
     margin-top: 40px;
     margin-top: 10px;
     width: 25%;
+}
+
+.btn-business:hover {
+    background-color: #bfbfbf;
+    text-decoration: underline;
 }
 
 .button-business a {
@@ -760,6 +837,10 @@ hr {
     text-decoration: none;
     color: white;
     font-weight: 600;
+}
+
+.lista-foot a:hover {
+    text-decoration: underline;
 }
 
 .globe {
