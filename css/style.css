@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: Open Sans, Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .float-left {
@@ -862,4 +863,9 @@ hr {
 svg {
     width: 15px;
     height: 15px;
+}
+
+.globe a {
+    text-decoration: none;
+    color: grey;
 }
