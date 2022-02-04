@@ -729,3 +729,46 @@ hr {
 .question:hover p {
     display: block;
 }
+
+/* / sezione FAQ */
+
+/* inzio footer */
+
+.container-big-footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-top: 100px;
+}
+
+.lista-foot {
+    width: 20%;
+}
+
+.lista-foot h2 {
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 800;
+}
+
+.lista-foot li {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.lista-foot a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.globe {
+    width: 20%;
+    border-top: 1px solid white;
+}
+
+.globe img {
+    filter: invert(1);
+    width: 15px;
+    height: 15px;
+}
