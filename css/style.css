@@ -763,12 +763,22 @@ hr {
 }
 
 .globe {
-    width: 20%;
-    border-top: 1px solid white;
+    width: 10%;
+    border-top: 1px solid #bfbfbf;
+    margin-top: 80px;
+    padding: 50px 0;
+    color: grey;
+    font-size: 14px;
 }
 
 .globe img {
     filter: invert(1);
+    width: 15px;
+    height: 15px;
+    opacity: 0.5;
+}
+
+svg {
     width: 15px;
     height: 15px;
 }
