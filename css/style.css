@@ -111,7 +111,6 @@ nav a {
 
 .container-jumbo {
     width: 90%;
-    height: 700px;
     margin: 50px auto;
     position: absolute;
     top: 50%;
@@ -196,15 +195,14 @@ nav a {
 
 .col-style {
     width: 30%;
-    height: 1100px;
+    min-height: 1100px;
     border: 1px solid grey;
 }
 
 .top-col {
     width: 100%;
-    height: 50px;
     text-align: center;
-    line-height: 50px;
+    padding: 10px 0;
     border-bottom: 1px solid grey;
 }
 
@@ -331,7 +329,6 @@ hr {
 
 .enterprise {
     width: 100%;
-    height: 300px;
     border: 1px solid gray;
     margin-top: 50px;
     margin-bottom: 150px;
@@ -343,9 +340,8 @@ hr {
 
 .top-enterprise {
     width: 100%;
-    height: 50px;
     text-align: center;
-    line-height: 50px;
+    padding: 10px 0;
     border-bottom: 1px solid grey;
 }
 
@@ -469,7 +465,6 @@ hr {
 
 .business-img {
     width: 100%;
-    height: 50%;
 }
 
 .business-img img {
@@ -478,7 +473,6 @@ hr {
 
 .grid-txt {
     width: 100%;
-    height: 50%;
 }
 
 /* sezione teams */
@@ -520,7 +514,6 @@ hr {
 
 .teams-logo {
     width: 30%;
-    height: 500px;
 }
 
 
